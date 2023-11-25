@@ -1,5 +1,6 @@
 """
 __________________________________INTPUT____________________________________________________
+để có thể chạy mà không có lỗi thì nên xóa những phần comment """comment""" và #comment
 """
 class Person:
   def __init__(self, fname, lname):
