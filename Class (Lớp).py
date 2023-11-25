@@ -4,7 +4,7 @@ print('Tạo MyClass và nhập gtri của x=5 rồi sau đó in Gtri của x ra
 class MyClass:
   x = 5
   
-#Tạo một đối tượng có tên p1 và in giá trị của x:
+#Tạo một đối tượng có tên p3 và in giá trị của x:
 p3 = MyClass()
 print(p3.x)
 print('----------------------------------------------------')
