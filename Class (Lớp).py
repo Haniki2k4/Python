@@ -1,3 +1,7 @@
+"""
+__________________________________INTPUT____________________________________________________
+Để có thể chạy mà không có lỗi thì nên xóa những phần comment """comment""" và #comment
+"""
 #Tạo một lớp có tên MyClass, với thuộc tính có tên x:
 print('(TEST CALSS PYTHON)')    
 print('Tạo MyClass và nhập gtri của x=5 rồi sau đó in Gtri của x ra')
