@@ -11,12 +11,16 @@ class MyClass:
 #Tạo một đối tượng có tên p3 và in giá trị của x:
 p3 = MyClass()
 print(p3.x)
-print('----------------------------------------------------')
+
+"""
+_____________OUTPUT_____________________
+5
+________________________________________
+"""
 
 """
 ______________________________________________________________________________
 """
-
 
 """Tạo một lớp có tên Person
 sử dụng hàm __init__() để gán giá trị Đối với tên và tuổi:
@@ -44,6 +48,16 @@ print(p1.gender)
 print(p1)
 p1.myfunc()
 p2.myfunc()
+"""
+_____________OUTPUT_____________________
+John
+36
+Women
+John(36), Women, Hispo
+Hello my name is John, 36 years old
+Hello my name is Kayle, 24 years old
+________________________________________
+"""
 #Thay đổi thuộc tính: Đặt tuổi từ p1 thành 40:
 p1.age = 40
 print(p1.age)
