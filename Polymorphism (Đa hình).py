@@ -4,6 +4,34 @@ __________________________________INTPUT________________________________________
 
 
 """
+Polymorphism (Đa hình)
+-đề cập đến phương thức / chức năng / toán tử có cùng tên có thể được thực thi trên nhiều đối tượng hoặc lớp học.
+"""
+#string
+x = "Hello World!"
+print(len(x))
+
+#tuple
+mytuple = ("apple", "banana", "cherry")
+print(len(mytuple))
+
+#dictionaries
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(len(thisdict))
+"""
+_____________OUTPUT_____________________
+12
+3
+3
+________________________________________
+"""
+
+
+"""
 Class Polymorphism (Đa hình lớp):
 -thường được sử dụng trong các phương thức Class, nơi chúng ta có thể có nhiều các lớp có cùng tên phương thức.
 """
@@ -24,19 +52,19 @@ class Vehicle:
    return f"Information: {self.brand} {self.model} ({self.year})"
  
 class Car(Vehicle):
-  pass
+  pass #kế thừa tất cả các methods của class Vehicle
 
 class Boat(Vehicle):
   def move(self): #ghi đè lên phương thức move của Vehicle
     print("Relief: River, Sea")
 
 class Plane(Vehicle):
-  def move(self):
+  def move(self): #ghi đè lên phương thức move của Vehicle 
     print("Relief: Sky")
 
-car1 = Car("Ford", "Mustang", 2020) #Create a Car object
-boat1 = Boat("Ibiza", "Touring 20", 2023) #Create a Boat object
-plane1 = Plane("Boeing", "747", 2019) #Create a Plane object
+car1 = Car("Ford", "Mustang", 2020) #Tạo 1 đối tượng (object) Car
+boat1 = Boat("Ibiza", "Touring 20", 2023) #Tạo 1 đối tượng (object) Boat
+plane1 = Plane("Boeing", "747", 2019) #Tạo 1 đối tượng (object) Plane
 
 #Dùng vòng for thực hiện cùng một phương thức cho cả ba lớp.
 for x in (car1, boat1, plane1):
