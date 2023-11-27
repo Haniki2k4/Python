@@ -1,6 +1,8 @@
 """
 __________________________________INTPUT____________________________________________________
 Để có thể chạy mà không có lỗi thì nên xóa những phần comment """comment""" và #comment
+
+Tuple là một bộ sưu tập được sắp xếp trình tự và không thể thay đổi. Cho phép các thành viên trùng lặp.
 """
 
 #Use the correct syntax to print the first item in the fruits tuple.
