@@ -3,7 +3,7 @@
 Dict là một bộ sưu tập đượcsắp xếp trình tự và có thể thay đổi. Không có thành viên trùng lặp.
 """
 
-#Create and print a dictionary:
+#Tạo và in từ điển (dictionary):
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -11,7 +11,7 @@ thisdict = {
 }
 print(thisdict)
 
-#Print the "brand" value of the dictionary:
+#In giá trị "brand" của từ điển:
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -19,10 +19,10 @@ thisdict = {
 }
 print(thisdict["brand"])
 
-#Print the number of items in the dictionary:
+#In số lượng mục trong dictionary:
 print(len(thisdict))
 
-#The values in dictionary items can be of any data type:
+#Các giá trị trong dictionary có thể thuộc bất kỳ kiểu dữ liệu nào:
 thisdict = {
   "brand": "Ford",
   "electric": False,
@@ -31,19 +31,18 @@ thisdict = {
 }
 print(thisdict)
 
-#Using the dict() method to make a dictionary:
+#Sử dụng phương thức dict() để tạo từ điển:
 thisdict = dict(name = "John", age = 36, country = "Norway")
 print(thisdict)
 
-#Use the get method to print the value of the "model" key of the car dictionary.
-car =	{
+#Sử dụng phương thức get để in giá trị của khóa "model" của car dictionary.
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
 }
 print(car.get("model"))
 
-#Change the "year" value from 1964 to 2020.
+#Đổi gái trị của "year" từ 1964 thành 2020
 car =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -52,7 +51,7 @@ car =	{
 car["year"] = 2020
 print(car)
 
-#Add the key/value pair "color" : "red" to the car dictionary.
+#Thêm cặp khóa/giá trị "color" : "red" vào car dictionary.
 car =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -61,7 +60,7 @@ car =	{
 car["color"] = "red"
 print(car)
 
-#Use the pop method to remove "model" from the car dictionary.
+#Sử dụng phương thức pop để xóa "model" khỏi car dictionary.
 car =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -70,7 +69,7 @@ car =	{
 car.pop("model")
 print(car)
 
-#Use the clear method to empty the car dictionary.
+#Sử dụng phương thức clear để làm sạch car dictionary.
 car =	{
   "brand": "Ford",
   "model": "Mustang",
