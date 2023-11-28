@@ -1,3 +1,8 @@
+
+'''
+------------FUNCTION---------------
+'''
+
 #Nếu bạn không biết số lượng đối số sẽ được truyền vào hàm của bạn, thêm tiền tố * vào định nghĩa hàm
 def my_function(*kids):
   print("The youngest child is " + kids[2])
@@ -28,3 +33,5 @@ print(x(5, 6))
 #Tổng đối số ,, và trả về:abc
 x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
+
+
