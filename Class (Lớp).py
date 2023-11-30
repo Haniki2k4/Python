@@ -27,7 +27,7 @@ sử dụng hàm __init__() để gán giá trị Đối với tên và tuổi:
 """
 class Person:
  def __init__(self, name, age, gender, race):
-     """có thể sử dụng các từ như mysillyobject và abc thay vì self"""
+     """có thể sử dụng mysillyobject và abc thay vì self"""
      self.name = name
      self.age = age
      self.gender = gender
